@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Ex-Reg-ANOVA"
+  author: "Norah Jones"
+  date: "10/8/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
